@@ -3,7 +3,6 @@ function MenuCallbackHandler:claim_crime_spree_rewards(item, node)
 		local penultimate_rank = tweak_data.infamy.ranks - 1
 		local current_level = managers.experience:current_level()
 		local current_rank = managers.experience:current_rank()
-
 		local claim_rewards_text = ""
 
 		if current_level < 100 or current_rank < 1 or current_rank >= penultimate_rank then
