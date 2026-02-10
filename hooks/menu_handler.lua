@@ -1,4 +1,4 @@
-local hook_id = "InfamyRebalance__MenuCallbackHandler._increase_infamous_with_prestige__pre"
+local hook_id = "BetterInfamy__MenuCallbackHandler._increase_infamous_with_prestige__pre"
 
 Hooks:PreHook(MenuCallbackHandler, "_increase_infamous_with_prestige", hook_id, function()
 	local max_rank = tweak_data.infamy.ranks

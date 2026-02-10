@@ -1,4 +1,4 @@
-local hook_id = "InfamyRebalance__InfamyTweakData.init__post"
+local hook_id = "BetterInfamy__InfamyTweakData.init__post"
 
 Hooks:PostHook(InfamyTweakData, "init", hook_id, function(self)
 	local function digest(value)

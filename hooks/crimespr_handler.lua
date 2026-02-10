@@ -1,4 +1,4 @@
-local hook_id = "InfamyRebalance__CrimeSpreeManager.award_rewards__post"
+local hook_id = "BetterInfamy__CrimeSpreeManager.award_rewards__post"
 
 Hooks:PostHook(CrimeSpreeManager, "award_rewards", hook_id, function(self, rewards_table)
 	local xp_reward = rewards_table and rewards_table.experience
@@ -42,8 +42,8 @@ Hooks:PostHook(CrimeSpreeManager, "award_rewards", hook_id, function(self, rewar
 
 	require("lib/managers/hud/HudChallengeNotification")
 
-	local title = managers.localization:to_upper_text("InfamyRebalance__popup_title")
-	local text = managers.localization:to_upper_text("InfamyRebalance__popup_text") .. target_rank
+	local title = managers.localization:to_upper_text("BetterInfamy__popup_title")
+	local text = managers.localization:to_upper_text("BetterInfamy__popup_text") .. target_rank
 
 	HudChallengeNotification.queue(title, text)
 

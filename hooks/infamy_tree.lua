@@ -1,4 +1,4 @@
-local hook_id = "InfamyRebalance__InfamyTreeGui._setup__post"
+local hook_id = "BetterInfamy__InfamyTreeGui._setup__post"
 
 Hooks:PostHook(InfamyTreeGui, "_setup", hook_id, function(self)
 	local FONT_SIZE = tweak_data.menu.pd2_small_font_size

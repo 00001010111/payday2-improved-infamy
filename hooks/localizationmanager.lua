@@ -1,5 +1,5 @@
 local mod_path = ModPath
-local hook_id = "InfamyRebalance__LocalizationManagerPostInit"
+local hook_id = "BetterInfamy__LocalizationManagerPostInit"
 
 Hooks:Add("LocalizationManagerPostInit", hook_id, function(localization_manager)
 	for _, filename in pairs(file.GetFiles(mod_path .. "localization/")) do

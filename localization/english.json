@@ -1,6 +1,6 @@
 {
-	"menu_dialog_become_infamous_prestige" : "You will pay 80% of your money, but no more than $6.000.000 cash and $24.000.000 offshore.\n\nYou will gain one rank of Infamy. If you are at Infamy rank 100 or below, you will also receive an Infamy Reward.",
-	"InfamyRebalance__dialog_cs_claim_rewards_text_addition" : "\n\nIf the experience gained is enough to increase your Infamy rank by 2 or more, then the promotion to the desired rank will happen automatically. For each Infamy rank, you will pay 80% of your money, but no more than $6.000.000 cash and $24.000.000 offshore.",
-	"InfamyRebalance__popup_title" : "INFAMY",
-	"InfamyRebalance__popup_text" : "Your Infamy rank has been increased to: "
+	"menu_dialog_become_infamous_prestige": "You will become Infamous.\n\nNo offshore money is required.\n\nYou will gain one Infamy rank. If you are at Infamy rank 100 or below, you will also receive an Infamy Reward.",
+	"BetterInfamy__dialog_cs_claim_rewards_text_addition": "\n\nIf the experience gained is enough to increase your Infamy rank by 2 or more, the promotion to the desired rank will happen automatically.\n\nNo money or offshore funds are required for Infamy promotions.",
+	"BetterInfamy__popup_title": "INFAMY",
+	"BetterInfamy__popup_text": "Your Infamy rank has been increased to: "
 }

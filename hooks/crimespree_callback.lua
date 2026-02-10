@@ -8,7 +8,7 @@ function MenuCallbackHandler:claim_crime_spree_rewards(item, node)
 		if current_level < 100 or current_rank < 1 or current_rank >= penultimate_rank then
 			claim_rewards_text = managers.localization:text("dialog_cs_claim_rewards_text")
 		else
-			claim_rewards_text = managers.localization:text("dialog_cs_claim_rewards_text") .. managers.localization:text("InfamyRebalance__dialog_cs_claim_rewards_text_addition")
+			claim_rewards_text = managers.localization:text("dialog_cs_claim_rewards_text") .. managers.localization:text("BetterInfamy__dialog_cs_claim_rewards_text_addition")
 		end
 
 		local dialog_data = {
